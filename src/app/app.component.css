@@ -1,0 +1,22 @@
+.lilInput{
+    width: 2.5em;
+}
+@media (max-width: 600px) {
+    .rowcol{
+        background-color: transparent;
+    }
+    
+}
+@media (min-width: 600px) {
+    .rowcol{
+        display: flex;
+        flex-direction: row;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div2{
+        width: 50%;
+    }
+    
+}
